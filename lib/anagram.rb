@@ -1,13 +1,13 @@
 # Your code goes here!
 class Anagram
 
-def initialize(anagram)
-  @anagram = anagram
+def initialize(word)
+  @word = word
 end
 
-def match(words)
-words.select do |word|
-  
+def match(array)
+words.select do |element|
+  @word.split("").sort == element.split("").sort 
 end
 end
 
