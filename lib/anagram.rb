@@ -5,10 +5,10 @@ def initialize(anagram)
   @anagram = anagram
 end
 
-def match(name)
-name.select do |word|
-  is word == @anagram
-end 
+def match(words)
+words.select do |word|
+  is_anagram?(word)
+end
 end
 
 
