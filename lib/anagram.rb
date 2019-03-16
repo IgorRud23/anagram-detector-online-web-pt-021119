@@ -2,7 +2,7 @@
 class Anagram
 
 def initialize(word)
-  @word = word
+  name.select {|a| a =~ /@word/}
 end
 
 def match(name)
