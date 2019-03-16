@@ -7,7 +7,7 @@ end
 
 def match(words)
 words.select do |word|
-  is_anagram?(word)
+  
 end
 end
 
